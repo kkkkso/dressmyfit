@@ -36,7 +36,7 @@ async def create_avatar(
     db: Session = Depends(get_db)  # DB 세션 종속성 추가
 ):
     # Avatar 데이터베이스 모델에 데이터 저장
-    avatar = Avatar(height=height, weight=weight, gender=gender, bmi=(weight / (height / 100) ** 2))  # bmi 계산을 나중에 추가 가능
+    avatar = Avatar(height=height, weight=weight, gender=gender, bmi=(weight / (height / 100) ** 2)) 
     db.add(avatar)
     db.commit()  # 데이터베이스에 커밋하여 저장
     db.refresh(avatar)  # 새로 저장된 객체 반환
@@ -48,3 +48,21 @@ def create_new_avatar(avatar: AvatarCreate, db: Session = Depends(get_db)):
         raise HTTPException(status_code=400, detail="Missing required fields")
     
     return create_avatar(db, avatar)
+
+@app.get("/avatar/{avatar_id}")
+async def get_avatar(avatar_id: int, db: Session = Depends(get_db)):
+    avatar = db.query(Avatar).filter(Avatar.id == avatar_id).first()  # id로 아바타 검색
+    if not avatar:
+        raise HTTPException(status_code=404, detail="Avatar not found")
+    return avatar
+
+from sqlalchemy import text
+
+@app.get("/reset-avatars")
+async def reset_avatars(db: Session = Depends(get_db)):
+    # 테이블의 모든 데이터 삭제 (테이블 자체는 남아있는 것)
+    db.execute(text("DELETE FROM avatar_data"))
+    # Oracle에서 시퀀스를 1로 리셋
+    db.execute(text("ALTER SEQUENCE avatar_id_seq RESTART START WITH 1"))
+    db.commit()
+    return {"message": "Avatars table reset and ID sequence restarted."}
