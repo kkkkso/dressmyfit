@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, Form, Depends
+from fastapi import FastAPI, Request, Form, Depends, HTTPException
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -7,6 +7,7 @@ from models.avatar import Base
 from utils.utils import engine, get_db
 from sqlalchemy.orm import Session
 from models.avatar import Avatar
+from schemas.avatar_schemas import AvatarCreate
 
 app = FastAPI()
 app.include_router(router)
@@ -40,3 +41,10 @@ async def create_avatar(
     db.commit()  # 데이터베이스에 커밋하여 저장
     db.refresh(avatar)  # 새로 저장된 객체 반환
     return {"height": height, "weight": weight, "gender": gender, "comment": comment}
+
+@router.post("/create-avatar/")
+def create_new_avatar(avatar: AvatarCreate, db: Session = Depends(get_db)):
+    if not avatar.height or not avatar.weight or not avatar.gender:
+        raise HTTPException(status_code=400, detail="Missing required fields")
+    
+    return create_avatar(db, avatar)
