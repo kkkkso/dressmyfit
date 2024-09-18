@@ -1,0 +1,916 @@
+.create-avatar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-avatar .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 2860px;
+  position: relative;
+}
+
+.create-avatar .next-step-informing {
+  position: absolute;
+  width: 1642px;
+  height: 181px;
+  top: 2543px;
+  left: 140px;
+}
+
+.create-avatar .overlap-group {
+  position: relative;
+  width: 1640px;
+  height: 181px;
+  background-image: url(../img/create_avatar/bg.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  height: 29px;
+  top: 76px;
+  left: 1309px;
+}
+
+.create-avatar .arrow {
+  position: absolute;
+  width: 21px;
+  height: 15px;
+  top: 7px;
+  left: 218px;
+}
+
+.create-avatar .virtual-try-on {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .want-to-see-lifelike {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.create-avatar .avatar-img {
+  position: absolute;
+  width: 1060px;
+  height: 1155px;
+  top: 1292px;
+  left: 430px;
+}
+
+.create-avatar .forn {
+  position: absolute;
+  width: 514px;
+  height: 425px;
+  top: 566px;
+  left: 910px;
+}
+
+.create-avatar .overlap-group-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 516px;
+  height: 54px;
+  top: 371px;
+  left: 0;
+}
+
+.create-avatar .overlap-group-2 {
+  position: relative;
+  width: 514px;
+  height: 54px;
+  background-image: url(../img/create_avatar/bg-1.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .text-wrapper {
+  top: 19px;
+  left: 173px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .img {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 20px;
+  left: 313px;
+}
+
+.create-avatar .comment {
+  position: absolute;
+  width: 516px;
+  height: 150px;
+  top: 196px;
+  left: 0;
+}
+
+.create-avatar .overlap {
+  position: relative;
+  width: 514px;
+  height: 150px;
+  background-image: url(../img/create_avatar/bg-2.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .text-wrapper-2 {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  opacity: 0.3;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .gender {
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  top: 106px;
+  left: 0;
+}
+
+.create-avatar .div-wrapper {
+  position: relative;
+  width: 514px;
+  height: 48px;
+  background-image: url(../img/create_avatar/bg-5.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .weight-ex {
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  top: 53px;
+  left: 0;
+}
+
+.create-avatar .height-ex {
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  top: 0;
+  left: 0;
+}
+
+/*추가한 부분 시작*/
+.create-avatar .custom-input1 {
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  background-color: transparent; /* 투명하게 설정 */
+  border: transparent;
+  z-index: 1; /* 레이블 아래에 위치 */
+}
+.create-avatar .custom-input1::placeholder {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  opacity: 0.3;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .custom-input2 {
+  position: relative;
+  width: 514px;
+  height: 150px;
+  top: 0px;
+  left: 0;
+  background-color: transparent; /* 투명하게 설정 */
+  border: transparent;
+  z-index: 1; /* 레이블 아래에 위치 */
+}
+.create-avatar .custom-input2::placeholder {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  opacity: 0.3;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .custom-select {
+  position: relative;
+  width: 516px;
+  height: 48px;
+  top: 0px;
+  left: 0;
+  background-color: transparent;
+  border: transparent;
+
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  opacity: 0.3;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  padding-left: 13px;
+}
+
+/*추가한 부분 끝*/
+
+.create-avatar .weight {
+  position: absolute;
+  top: 631px;
+  left: 795px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #af9f77;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .height {
+  position: absolute;
+  top: 578px;
+  left: 795px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #af9f77;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .gender-2 {
+  position: absolute;
+  top: 684px;
+  left: 795px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #af9f77;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .contacts {
+  position: absolute;
+  width: 227px;
+  height: 121px;
+  top: 566px;
+  left: 430px;
+}
+
+.create-avatar .line {
+  position: absolute;
+  width: 227px;
+  height: 2px;
+  top: -1px;
+  left: 0;
+}
+
+.create-avatar .contact {
+  position: absolute;
+  width: 155px;
+  height: 90px;
+  top: 31px;
+  left: 0;
+}
+
+.create-avatar .text-wrapper-3 {
+  top: 0;
+  left: 0;
+  color: #000c22;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .virtual-try-on-2 {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c2266;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .closet {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c2266;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .overlap-2 {
+  position: absolute;
+  width: 1924px;
+  height: 432px;
+  top: 34px;
+  left: 0;
+}
+
+.create-avatar .headline {
+  position: absolute;
+  width: 1924px;
+  height: 298px;
+  top: 134px;
+  left: 0;
+}
+
+.create-avatar .overlap-3 {
+  position: relative;
+  width: 1920px;
+  height: 298px;
+  background-image: url(../img/create_avatar/bg-6.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .create-your-own {
+  position: absolute;
+  top: 102px;
+  left: 576px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.create-avatar .create-a-lifelike {
+  position: absolute;
+  top: 177px;
+  left: 711px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.create-avatar .logo {
+  position: absolute;
+  width: 1920px;
+  height: 380px;
+  top: 0;
+  left: 0;
+}
+
+.create-avatar .hedear {
+  height: 380px;
+}
+
+.create-avatar .overlap-4 {
+  position: relative;
+  width: 1920px;
+  height: 382px;
+  top: -2px;
+}
+
+.create-avatar .bg {
+  position: absolute;
+  width: 1920px;
+  height: 229px;
+  top: 0;
+  left: 0;
+}
+
+.create-avatar .dressmyfit-wrapper {
+  position: absolute;
+  width: 184px;
+  height: 47px;
+  top: 57px;
+  left: 868px;
+}
+
+.create-avatar .dressmyfit {
+  position: relative;
+  height: 47px;
+}
+
+.create-avatar .dress-my-fit {
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  font-family: "Fontdiner Swanky", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .arrow-2 {
+  position: absolute;
+  width: 1761px;
+  height: 1px;
+  top: 168px;
+  left: 80px;
+  object-fit: cover;
+}
+
+.create-avatar .gender-3 {
+  position: absolute;
+  width: 204px;
+  height: 22px;
+  top: 69px;
+  left: 80px;
+}
+
+.create-avatar .man {
+  position: absolute;
+  top: 0;
+  left: 93px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .kids {
+  position: absolute;
+  top: 0;
+  left: 156px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .profile-wishlist {
+  position: absolute;
+  width: 79px;
+  height: 314px;
+  top: 68px;
+  left: 1690px;
+}
+
+.create-avatar .profile {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 2px;
+  left: 63px;
+}
+
+.create-avatar .path {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 0;
+  left: 3px;
+}
+
+.create-avatar .path-2 {
+  position: absolute;
+  width: 16px;
+  height: 10px;
+  top: 9px;
+  left: 0;
+}
+
+.create-avatar .wishlist {
+  position: absolute;
+  width: 24px;
+  height: 314px;
+  top: 0;
+  left: 0;
+}
+
+.create-avatar .overlap-5 {
+  position: relative;
+  height: 314px;
+}
+
+.create-avatar .icon {
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+}
+
+.create-avatar .element {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 10px;
+}
+
+.create-avatar .overlap-group-3 {
+  position: relative;
+  height: 15px;
+  top: -1px;
+}
+
+.create-avatar .ellipse {
+  top: 1px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.create-avatar .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .arrow-3 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 1px;
+  left: 42px;
+}
+
+.create-avatar .bag {
+  position: absolute;
+  width: 46px;
+  height: 325px;
+  top: 56px;
+  left: 1794px;
+}
+
+.create-avatar .overlap-6 {
+  position: relative;
+  height: 325px;
+}
+
+.create-avatar .bg-2 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 0;
+  left: 0;
+}
+
+.create-avatar .overlap-wrapper {
+  position: absolute;
+  width: 21px;
+  height: 314px;
+  top: 11px;
+  left: 15px;
+}
+
+.create-avatar .icon-2 {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  top: 2px;
+  left: 0;
+  background-image: url(../img/create_avatar/path-2.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .element-2 {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 7px;
+}
+
+.create-avatar .overlap-group-4 {
+  position: relative;
+  height: 16px;
+  top: -1px;
+}
+
+.create-avatar .ellipse-2 {
+  top: 2px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.create-avatar .navbar {
+  position: absolute;
+  width: 955px;
+  height: 22px;
+  top: 123px;
+  left: 504px;
+}
+
+.create-avatar .NEWS-sales {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .clothing {
+  left: 162px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .shoes {
+  left: 275px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .accessories {
+  left: 356px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .bags {
+  left: 501px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .jewelry {
+  left: 570px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .brands {
+  left: 673px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .virtual-try-on-3 {
+  position: absolute;
+  top: 0;
+  left: 787px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b3389;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .arrow-4 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 142px;
+}
+
+.create-avatar .arrow-5 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 766px;
+}
+
+.create-avatar .search {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  top: 123px;
+  left: 80px;
+}
+
+.create-avatar .icon-3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  left: 0;
+  background-image: url(../img/create_avatar/path-6.svg);
+  background-size: 100% 100%;
+}
+
+.create-avatar .input {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  opacity: 0.2;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.create-avatar .infor-currency {
+  position: absolute;
+  width: 153px;
+  height: 21px;
+  top: 123px;
+  left: 1687px;
+}
+
+.create-avatar .info {
+  position: absolute;
+  width: 59px;
+  height: 21px;
+  top: 0;
+  left: 94px;
+}
+
+.create-avatar .text-wrapper-5 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .path-3 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 51px;
+}
+
+.create-avatar .currency {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 0;
+  left: 0;
+}
+
+.create-avatar .path-4 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 46px;
+}
+
+.create-avatar .text-wrapper-6 {
+  position: absolute;
+  width: 38px;
+  height: 22px;
+  top: -1px;
+  left: -3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.create-avatar .arrow-6 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 0;
+  left: 74px;
+}
+
+.create-avatar .sale-banner {
+  position: absolute;
+  width: 1920px;
+  height: 38px;
+  top: 2px;
+  left: 0;
+}
+
+.create-avatar .results {
+  position: absolute;
+  top: 1209px;
+  left: 430px;
+  font-family: "Fontdiner Swanky", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.create-avatar .line-2 {
+  position: absolute;
+  width: 1060px;
+  height: 2px;
+  top: 1186px;
+  left: 430px;
+}

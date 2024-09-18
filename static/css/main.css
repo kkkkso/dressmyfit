@@ -1,0 +1,2692 @@
+.main-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-page .main-page-v {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 7050px;
+}
+
+.main-page .overlap {
+  position: relative;
+  width: 2195px;
+  height: 7050px;
+}
+
+.main-page .background {
+  position: absolute;
+  width: 1920px;
+  height: 7050px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .sport-categories {
+  position: absolute;
+  width: 1760px;
+  height: 1215px;
+  top: 4773px;
+  left: 80px;
+}
+
+.main-page .overlap-group {
+  position: relative;
+  height: 1215px;
+}
+
+.main-page .bg {
+  position: absolute;
+  width: 1760px;
+  height: 972px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .line {
+  position: absolute;
+  width: 1640px;
+  height: 1px;
+  top: 480px;
+  left: 60px;
+  object-fit: cover;
+}
+
+.main-page .element {
+  position: absolute;
+  width: 399px;
+  height: 605px;
+  top: 610px;
+  left: 1302px;
+}
+
+.main-page .photo {
+  position: absolute;
+  width: 398px;
+  height: 500px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .info {
+  position: absolute;
+  width: 403px;
+  height: 85px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price {
+  position: absolute;
+  width: 44px;
+  height: 29px;
+  top: 56px;
+  left: 357px;
+}
+
+.main-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .color {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 63px;
+  left: 0;
+}
+
+.main-page .img {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 64px;
+  left: 30px;
+}
+
+.main-page .size {
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  top: 62px;
+  left: 46px;
+}
+
+.main-page .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-group-2 {
+  position: absolute;
+  width: 182px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .text-wrapper-2 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .element-2 {
+  position: absolute;
+  width: 399px;
+  height: 605px;
+  top: 610px;
+  left: 888px;
+}
+
+.main-page .div-wrapper {
+  position: absolute;
+  width: 49px;
+  height: 29px;
+  top: 56px;
+  left: 352px;
+}
+
+.main-page .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .element-3 {
+  position: absolute;
+  width: 399px;
+  height: 605px;
+  top: 610px;
+  left: 474px;
+}
+
+.main-page .price-2 {
+  position: absolute;
+  width: 109px;
+  height: 30px;
+  top: 55px;
+  left: 292px;
+}
+
+.main-page .text-wrapper-5 {
+  position: absolute;
+  top: 1px;
+  left: 49px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .overlap-group-wrapper {
+  position: absolute;
+  width: 47px;
+  height: 22px;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.main-page .overlap-group-3 {
+  position: relative;
+  width: 45px;
+  height: 22px;
+}
+
+.main-page .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .line-2 {
+  position: absolute;
+  width: 44px;
+  height: 1px;
+  top: 10px;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-page .element-4 {
+  position: absolute;
+  width: 398px;
+  height: 605px;
+  top: 610px;
+  left: 60px;
+}
+
+.main-page .info-2 {
+  position: absolute;
+  width: 397px;
+  height: 85px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price-3 {
+  position: absolute;
+  width: 63px;
+  height: 29px;
+  top: 56px;
+  left: 332px;
+}
+
+.main-page .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .size-2 {
+  position: absolute;
+  width: 87px;
+  height: 19px;
+  top: 62px;
+  left: 46px;
+}
+
+.main-page .text-wrapper-8 {
+  left: 30px;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-9 {
+  left: 60px;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-group-4 {
+  position: absolute;
+  width: 308px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .headline-photo {
+  position: absolute;
+  width: 1642px;
+  height: 470px;
+  top: 60px;
+  left: 60px;
+}
+
+.main-page .photo-2 {
+  position: absolute;
+  width: 950px;
+  height: 470px;
+  top: 0;
+  left: 690px;
+}
+
+.main-page .create-your-avatar {
+  position: absolute;
+  top: 188px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .button {
+  all: unset;
+  box-sizing: border-box;
+  width: 200px;
+  top: 301px;
+  position: absolute;
+  height: 49px;
+  left: 0;
+}
+
+.main-page .overlap-group-5 {
+  position: relative;
+  width: 198px;
+  height: 49px;
+  background-image: url(../img/main/bg-1.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .dress-now {
+  top: 14px;
+  left: 20px;
+  font-weight: 500;
+  color: #eee9dc;
+  font-size: 18px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+}
+
+.main-page .arrow {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 19px;
+  left: 153px;
+}
+
+.main-page .headline {
+  position: absolute;
+  width: 402px;
+  height: 149px;
+  top: 25px;
+  left: 0;
+}
+
+.main-page .overlap-2 {
+  position: relative;
+  width: 400px;
+  height: 149px;
+}
+
+.main-page .dress {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main-page .h {
+  position: absolute;
+  width: 400px;
+  height: 149px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-3 {
+  position: relative;
+  width: 402px;
+  height: 149px;
+}
+
+.main-page .own-avatar {
+  position: absolute;
+  width: 402px;
+  height: 78px;
+  top: 71px;
+  left: 0;
+}
+
+.main-page .overlap-group-6 {
+  position: relative;
+  width: 403px;
+  height: 78px;
+  left: -2px;
+}
+
+.main-page .underline {
+  width: 403px;
+  position: absolute;
+  height: 3px;
+  top: 64px;
+  left: 0;
+}
+
+.main-page .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-family: "Architects Daughter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .your {
+  position: absolute;
+  width: 152px;
+  height: 78px;
+  top: 0;
+  left: 198px;
+}
+
+.main-page .overlap-group-7 {
+  position: relative;
+  width: 153px;
+  height: 78px;
+  left: -2px;
+}
+
+.main-page .underline-2 {
+  position: absolute;
+  width: 153px;
+  height: 3px;
+  top: 64px;
+  left: 0;
+}
+
+.main-page .top-product {
+  position: absolute;
+  width: 2055px;
+  height: 605px;
+  top: 4022px;
+  left: 140px;
+}
+
+.main-page .overlap-4 {
+  position: absolute;
+  width: 813px;
+  height: 605px;
+  top: 0;
+  left: 1242px;
+}
+
+.main-page .element-5 {
+  position: absolute;
+  width: 399px;
+  height: 601px;
+  top: 0;
+  left: 414px;
+}
+
+.main-page .img-2 {
+  position: absolute;
+  width: 124px;
+  height: 500px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .info-3 {
+  position: absolute;
+  width: 403px;
+  height: 81px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .overlap-group-8 {
+  position: absolute;
+  width: 219px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .price-4 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 50px;
+  left: 288px;
+}
+
+.main-page .text-wrapper-11 {
+  position: absolute;
+  top: 1px;
+  left: 53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .div-2 {
+  width: 48px;
+  height: 22px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .line-3 {
+  top: 4794px;
+  left: 3530px;
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.main-page .color-size {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  top: 62px;
+  left: 0;
+}
+
+.main-page .color-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1px;
+  left: 0;
+}
+
+.main-page .size-3 {
+  position: absolute;
+  width: 35px;
+  height: 19px;
+  top: 0;
+  left: 46px;
+}
+
+.main-page .group {
+  width: 13px;
+  height: 19px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .group-2 {
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  top: 0;
+  left: 20px;
+}
+
+.main-page .line-4 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 2px;
+  left: 30px;
+}
+
+.main-page .element-6 {
+  position: absolute;
+  width: 399px;
+  height: 605px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-5 {
+  position: absolute;
+  width: 99px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .img-3 {
+  position: absolute;
+  width: 163px;
+  height: 163px;
+  top: 184px;
+  left: 295px;
+}
+
+.main-page .element-7 {
+  position: absolute;
+  width: 399px;
+  height: 605px;
+  top: 0;
+  left: 828px;
+}
+
+.main-page .price-5 {
+  position: absolute;
+  width: 47px;
+  height: 29px;
+  top: 56px;
+  left: 354px;
+}
+
+.main-page .img-4 {
+  position: absolute;
+  width: 34px;
+  height: 16px;
+  top: 63px;
+  left: 0;
+}
+
+.main-page .img-5 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 64px;
+  left: 48px;
+}
+
+.main-page .size-4 {
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  top: 62px;
+  left: 64px;
+}
+
+.main-page .overlap-group-9 {
+  position: absolute;
+  width: 195px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .element-8 {
+  position: absolute;
+  width: 398px;
+  height: 605px;
+  top: 0;
+  left: 414px;
+}
+
+.main-page .info-4 {
+  position: absolute;
+  width: 396px;
+  height: 85px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price-6 {
+  position: absolute;
+  width: 63px;
+  height: 29px;
+  top: 56px;
+  left: 331px;
+}
+
+.main-page .overlap-group-10 {
+  position: absolute;
+  width: 136px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .element-9 {
+  width: 398px;
+  height: 605px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.main-page .price-7 {
+  position: absolute;
+  width: 64px;
+  height: 29px;
+  top: 56px;
+  left: 330px;
+}
+
+.main-page .overlap-group-11 {
+  position: absolute;
+  width: 211px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .video-block {
+  position: absolute;
+  width: 1760px;
+  height: 500px;
+  top: 3372px;
+  left: 80px;
+  background-image: url(../img/main/video.png);
+  background-size: 100% 100%;
+}
+
+.main-page .overlap-6 {
+  position: relative;
+  height: 500px;
+  background-image: url(../img/main/gradient.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .long-button-light-bg {
+  position: absolute;
+  width: 312px;
+  height: 49px;
+  top: 361px;
+  left: 872px;
+}
+
+.main-page .overlap-group-12 {
+  position: relative;
+  width: 310px;
+  height: 49px;
+  background-image: url(../img/main/bg-2.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .arrow-2 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 19px;
+  left: 265px;
+}
+
+.main-page .view-all-collections {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .headline-text {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  top: 123px;
+  left: 872px;
+}
+
+.main-page .everything-you-need {
+  position: absolute;
+  top: 156px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .overlap-wrapper {
+  position: absolute;
+  width: 450px;
+  height: 140px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-7 {
+  position: relative;
+  height: 140px;
+}
+
+.main-page .summer-pop-up-store {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.main-page .party {
+  position: absolute;
+  width: 179px;
+  height: 78px;
+  top: 0;
+  left: 271px;
+}
+
+.main-page .overlap-group-13 {
+  position: relative;
+  height: 78px;
+  left: -2px;
+}
+
+.main-page .party-2 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-family: "Architects Daughter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .underline-3 {
+  width: 179px;
+  position: absolute;
+  height: 3px;
+  top: 64px;
+  left: 0;
+}
+
+.main-page .play-button {
+  position: absolute;
+  width: 143px;
+  height: 141px;
+  top: 169px;
+  left: 182px;
+}
+
+.main-page .categories-dress {
+  position: absolute;
+  width: 1640px;
+  height: 720px;
+  top: 2508px;
+  left: 140px;
+}
+
+.main-page .element-10 {
+  position: absolute;
+  width: 191px;
+  height: 276px;
+  top: 438px;
+  left: 1449px;
+}
+
+.main-page .element-11 {
+  position: absolute;
+  width: 191px;
+  height: 276px;
+  top: 438px;
+  left: 1242px;
+}
+
+.main-page .show-all {
+  position: absolute;
+  width: 400px;
+  height: 307px;
+  top: 115px;
+  left: 1242px;
+}
+
+.main-page .overlap-group-14 {
+  position: relative;
+  width: 398px;
+  height: 307px;
+  background-image: url(../img/main/bg-3.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .botutton-without-bg {
+  position: absolute;
+  width: 137px;
+  height: 22px;
+  top: 232px;
+  left: 54px;
+}
+
+.main-page .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-3 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 4px;
+  left: 120px;
+}
+
+.main-page .show-all-dresses {
+  position: absolute;
+  top: 72px;
+  left: 54px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.main-page .element-12 {
+  position: absolute;
+  width: 398px;
+  height: 605px;
+  top: 115px;
+  left: 828px;
+}
+
+.main-page .price-8 {
+  position: absolute;
+  width: 49px;
+  height: 29px;
+  top: 56px;
+  left: 346px;
+}
+
+.main-page .size-5 {
+  position: absolute;
+  width: 106px;
+  height: 16px;
+  top: 63px;
+  left: 0;
+}
+
+.main-page .arrow-4 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 64px;
+  left: 120px;
+}
+
+.main-page .color-3 {
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  top: 62px;
+  left: 136px;
+}
+
+.main-page .overlap-group-15 {
+  position: absolute;
+  width: 109px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .element-13 {
+  position: absolute;
+  width: 398px;
+  height: 605px;
+  top: 115px;
+  left: 414px;
+}
+
+.main-page .info-5 {
+  position: absolute;
+  width: 402px;
+  height: 85px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price-9 {
+  position: absolute;
+  width: 48px;
+  height: 29px;
+  top: 56px;
+  left: 352px;
+}
+
+.main-page .img-6 {
+  position: absolute;
+  width: 70px;
+  height: 16px;
+  top: 63px;
+  left: 0;
+}
+
+.main-page .img-7 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 64px;
+  left: 84px;
+}
+
+.main-page .color-4 {
+  position: absolute;
+  width: 68px;
+  height: 19px;
+  top: 62px;
+  left: 100px;
+}
+
+.main-page .text-wrapper-13 {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-14 {
+  left: 47px;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-group-16 {
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .element-14 {
+  width: 399px;
+  height: 605px;
+  top: 115px;
+  position: absolute;
+  left: 0;
+}
+
+.main-page .color-5 {
+  position: absolute;
+  width: 68px;
+  height: 19px;
+  top: 62px;
+  left: 64px;
+}
+
+.main-page .overlap-group-17 {
+  position: absolute;
+  width: 128px;
+  height: 51px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .headline-2 {
+  position: absolute;
+  width: 409px;
+  height: 64px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .button-bg-light {
+  position: absolute;
+  width: 187px;
+  height: 49px;
+  top: 7px;
+  left: 222px;
+}
+
+.main-page .overlap-group-18 {
+  position: relative;
+  width: 185px;
+  height: 49px;
+  background-image: url(../img/main/bg-4.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .text-wrapper-15 {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-5 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 19px;
+  left: 150px;
+}
+
+.main-page .dress-2 {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 56px;
+  line-height: 64px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+}
+
+.main-page .line-5 {
+  position: absolute;
+  width: 1641px;
+  height: 1px;
+  top: 2405px;
+  left: 140px;
+  object-fit: cover;
+}
+
+.main-page .top-collections {
+  position: absolute;
+  width: 1640px;
+  height: 550px;
+  top: 1755px;
+  left: 140px;
+}
+
+.main-page .collection {
+  position: absolute;
+  width: 470px;
+  height: 550px;
+  top: 0;
+  left: 1174px;
+}
+
+.main-page .overlap-group-19 {
+  position: relative;
+  width: 466px;
+  height: 550px;
+  background-image: url(../img/main/photo-13.png);
+  background-size: 100% 100%;
+}
+
+.main-page .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 81px;
+  height: 22px;
+  top: 459px;
+  left: 160px;
+}
+
+.main-page .look {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-6 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 4px;
+  left: 64px;
+}
+
+.main-page .girl-in-white {
+  position: absolute;
+  top: 323px;
+  left: 160px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-16 {
+  position: absolute;
+  top: 290px;
+  left: 160px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .collectin {
+  position: absolute;
+  width: 470px;
+  height: 550px;
+  top: 0;
+  left: 690px;
+}
+
+.main-page .overlap-8 {
+  position: relative;
+  width: 466px;
+  height: 550px;
+  background-image: url(../img/main/photo-14.png);
+  background-size: 100% 100%;
+}
+
+.main-page .style-to-the-maximum {
+  position: absolute;
+  top: 323px;
+  left: 160px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.main-page .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  width: 312px;
+  top: 400px;
+  position: absolute;
+  height: 49px;
+  left: 0;
+}
+
+.main-page .overlap-9 {
+  position: relative;
+  width: 310px;
+  height: 49px;
+  background-image: url(../img/main/bg-5.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .pull-bear {
+  position: absolute;
+  width: 544px;
+  height: 24px;
+  top: 254px;
+  left: 0;
+}
+
+.main-page .text-wrapper-17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-18 {
+  position: absolute;
+  top: 0;
+  left: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-19 {
+  position: absolute;
+  top: 0;
+  left: 197px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-20 {
+  top: 0;
+  left: 267px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .pull-bear-2 {
+  width: 148px;
+  height: 22px;
+  left: 390px;
+  position: absolute;
+  top: 0;
+}
+
+.main-page .price-10 {
+  position: absolute;
+  width: 60px;
+  height: 22px;
+  top: 0;
+  left: 88px;
+}
+
+.main-page .overlap-group-20 {
+  position: relative;
+  width: 58px;
+  height: 22px;
+  background-image: url(../img/main/bg-6.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .text-wrapper-21 {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #491e4b;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-7 {
+  position: absolute;
+  width: 537px;
+  height: 1px;
+  top: 286px;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-page .zara {
+  position: absolute;
+  width: 542px;
+  height: 25px;
+  top: 298px;
+  left: 0;
+}
+
+.main-page .text-wrapper-22 {
+  top: 1px;
+  left: 69px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-23 {
+  top: 1px;
+  left: 142px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.main-page .zara-2 {
+  width: 104px;
+  height: 22px;
+  left: 434px;
+  position: absolute;
+  top: 0;
+}
+
+.main-page .text-wrapper-24 {
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.main-page .price-11 {
+  position: absolute;
+  width: 58px;
+  height: 22px;
+  top: 0;
+  left: 46px;
+}
+
+.main-page .overlap-group-21 {
+  position: relative;
+  width: 56px;
+  height: 22px;
+  background-image: url(../img/main/bg-7.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .h-2 {
+  position: absolute;
+  width: 465px;
+  height: 204px;
+  top: 20px;
+  left: 0;
+}
+
+.main-page .overlap-10 {
+  position: relative;
+  height: 204px;
+}
+
+.main-page .ideas-for-stylish {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.main-page .pool {
+  position: absolute;
+  width: 152px;
+  height: 78px;
+  top: 0;
+  left: 313px;
+}
+
+.main-page .text-wrapper-25 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-family: "Architects Daughter", Helvetica;
+  font-weight: 400;
+  color: #491e4b;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .party-3 {
+  position: absolute;
+  width: 179px;
+  height: 78px;
+  top: 65px;
+  left: 0;
+}
+
+.main-page .line-6 {
+  position: absolute;
+  width: 1641px;
+  height: 1px;
+  top: 1655px;
+  left: 140px;
+  object-fit: cover;
+}
+
+.main-page .top-product-2 {
+  position: absolute;
+  width: 2054px;
+  height: 619px;
+  top: 941px;
+  left: 140px;
+}
+
+.main-page .overlap-11 {
+  position: absolute;
+  width: 812px;
+  height: 604px;
+  top: 15px;
+  left: 1242px;
+}
+
+.main-page .element-15 {
+  position: absolute;
+  width: 398px;
+  height: 604px;
+  top: 0;
+  left: 414px;
+}
+
+.main-page .info-6 {
+  position: absolute;
+  width: 396px;
+  height: 84px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price-12 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 55px;
+  left: 288px;
+}
+
+.main-page .line-7 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  top: 3318px;
+  left: 1734px;
+  object-fit: cover;
+}
+
+.main-page .overlap-group-22 {
+  position: absolute;
+  width: 178px;
+  height: 51px;
+  top: -1px;
+  left: 0;
+}
+
+.main-page .element-16 {
+  position: absolute;
+  width: 398px;
+  height: 604px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .price-13 {
+  position: absolute;
+  width: 111px;
+  height: 30px;
+  top: 55px;
+  left: 290px;
+}
+
+.main-page .text-wrapper-26 {
+  position: absolute;
+  top: 1px;
+  left: 51px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .overlap-group-23 {
+  position: relative;
+  width: 46px;
+  height: 22px;
+}
+
+.main-page .line-8 {
+  position: absolute;
+  width: 46px;
+  height: 1px;
+  top: 10px;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-page .size-6 {
+  position: absolute;
+  width: 39px;
+  height: 19px;
+  top: 62px;
+  left: 46px;
+}
+
+.main-page .text-wrapper-27 {
+  left: 20px;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-12 {
+  position: absolute;
+  width: 137px;
+  height: 51px;
+  top: -1px;
+  left: 0;
+}
+
+.main-page .element-17 {
+  position: absolute;
+  width: 398px;
+  height: 604px;
+  top: 15px;
+  left: 828px;
+}
+
+.main-page .price-14 {
+  position: absolute;
+  width: 107px;
+  height: 30px;
+  top: 55px;
+  left: 294px;
+}
+
+.main-page .text-wrapper-28 {
+  position: absolute;
+  top: 1px;
+  left: 47px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .group-3 {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.main-page .overlap-group-24 {
+  position: relative;
+  width: 42px;
+  height: 22px;
+}
+
+.main-page .line-9 {
+  position: absolute;
+  width: 42px;
+  height: 1px;
+  top: 10px;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-page .overlap-13 {
+  position: absolute;
+  width: 109px;
+  height: 51px;
+  top: -1px;
+  left: 0;
+}
+
+.main-page .element-hover {
+  position: absolute;
+  width: 397px;
+  height: 599px;
+  top: 0;
+  left: 415px;
+}
+
+.main-page .overlap-14 {
+  position: relative;
+  width: 497px;
+  height: 716px;
+  top: -36px;
+  left: -51px;
+  background-image: url(../img/main/bg-9.png);
+  background-size: 100% 100%;
+}
+
+.main-page .overlap-15 {
+  position: absolute;
+  width: 365px;
+  height: 462px;
+  top: 51px;
+  left: 66px;
+  background-image: url(../img/main/photo-17.png);
+  background-size: 100% 100%;
+}
+
+.main-page .add-to-cart {
+  position: absolute;
+  width: 103px;
+  height: 52px;
+  top: 395px;
+  left: 249px;
+  background-image: url(../img/main/rectangle-230.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .element-bag {
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  top: 14px;
+  left: 18px;
+  background-image: url(../img/main/path-2.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .text-wrapper-29 {
+  position: absolute;
+  top: 14px;
+  left: 46px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .add-to-wishlist {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: 15px;
+  left: 329px;
+}
+
+.main-page .info-7 {
+  position: absolute;
+  width: 365px;
+  height: 81px;
+  top: 536px;
+  left: 66px;
+}
+
+.main-page .price-15 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 52px;
+  left: 257px;
+}
+
+.main-page .line-10 {
+  top: 10px;
+  left: 0;
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.main-page .size-7 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 62px;
+  left: 100px;
+}
+
+.main-page .text-wrapper-30 {
+  top: -1px;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000c22;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-16 {
+  position: absolute;
+  width: 254px;
+  height: 51px;
+  top: -1px;
+  left: 0;
+}
+
+.main-page .element-18 {
+  width: 398px;
+  height: 604px;
+  top: 15px;
+  position: absolute;
+  left: 0;
+}
+
+.main-page .info-8 {
+  position: absolute;
+  width: 393px;
+  height: 84px;
+  top: 520px;
+  left: 0;
+}
+
+.main-page .price-16 {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  top: 55px;
+  left: 305px;
+}
+
+.main-page .old-price {
+  width: 45px;
+  position: absolute;
+  height: 22px;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.main-page .overlap-group-25 {
+  position: relative;
+  width: 43px;
+  height: 22px;
+}
+
+.main-page .filter-by-brand {
+  position: absolute;
+  width: 1779px;
+  height: 1137px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .logos {
+  position: absolute;
+  width: 1677px;
+  height: 856px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-17 {
+  position: relative;
+  height: 856px;
+}
+
+.main-page .adidas {
+  position: absolute;
+  width: 214px;
+  height: 30px;
+  top: 821px;
+  left: 140px;
+}
+
+.main-page .asos {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  top: 821px;
+  left: 461px;
+}
+
+.main-page .bershka {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  top: 821px;
+  left: 671px;
+}
+
+.main-page .levi-s {
+  position: absolute;
+  width: 81px;
+  height: 40px;
+  top: 816px;
+  left: 913px;
+}
+
+.main-page .nike {
+  position: absolute;
+  width: 78px;
+  height: 28px;
+  top: 822px;
+  left: 1100px;
+}
+
+.main-page .pull-bear-3 {
+  position: absolute;
+  width: 166px;
+  height: 26px;
+  top: 823px;
+  left: 1284px;
+}
+
+.main-page .zara-3 {
+  width: 1677px;
+  height: 850px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.main-page .div-3 {
+  position: absolute;
+  width: 1614px;
+  height: 850px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .path {
+  position: absolute;
+  width: 24px;
+  height: 28px;
+  top: 822px;
+  left: 1557px;
+}
+
+.main-page .path-2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 4783px;
+  left: 3530px;
+}
+
+.main-page .path-3 {
+  position: absolute;
+  width: 32px;
+  height: 28px;
+  top: 822px;
+  left: 1582px;
+}
+
+.main-page .path-4 {
+  position: absolute;
+  width: 29px;
+  height: 28px;
+  top: 822px;
+  left: 1615px;
+}
+
+.main-page .path-5 {
+  position: absolute;
+  width: 32px;
+  height: 28px;
+  top: 822px;
+  left: 1645px;
+}
+
+.main-page .more {
+  position: absolute;
+  width: 66px;
+  height: 314px;
+  top: 823px;
+  left: 1713px;
+  overflow: hidden;
+}
+
+.main-page .text-wrapper-31 {
+  position: absolute;
+  top: -1px;
+  left: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .line-11 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 4px;
+  left: 0;
+}
+
+.main-page .top-section {
+  position: absolute;
+  width: 1922px;
+  height: 530px;
+  top: 206px;
+  left: 0;
+}
+
+.main-page .overlap-18 {
+  position: relative;
+  width: 1920px;
+  height: 530px;
+}
+
+.main-page .bg-2 {
+  width: 1920px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .button-dark-bg {
+  position: absolute;
+  width: 200px;
+  height: 49px;
+  top: 351px;
+  left: 140px;
+}
+
+.main-page .overlap-group-26 {
+  position: relative;
+  width: 198px;
+  height: 49px;
+  background-image: url(../img/main/rectangle-230-1.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .pull-bear-h-m-zara {
+  position: absolute;
+  top: 279px;
+  left: 140px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .h-3 {
+  position: absolute;
+  width: 534px;
+  height: 135px;
+  top: 130px;
+  left: 140px;
+}
+
+.main-page .overlap-19 {
+  position: relative;
+  width: 532px;
+  height: 135px;
+}
+
+.main-page .summer-women-s {
+  top: 0;
+  color: #ffffff;
+  font-size: 56px;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .BRAND-jeans {
+  position: absolute;
+  width: 380px;
+  height: 78px;
+  top: 57px;
+  left: 0;
+}
+
+.main-page .overlap-group-27 {
+  position: relative;
+  height: 78px;
+  top: -1px;
+}
+
+.main-page .BRAND-jeans-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Architects Daughter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .underline-4 {
+  width: 380px;
+  position: absolute;
+  height: 5px;
+  top: 64px;
+  left: 0;
+}
+
+.main-page .photo-3 {
+  position: absolute;
+  width: 950px;
+  height: 510px;
+  top: 20px;
+  left: 830px;
+}
+
+.main-page .hedear {
+  position: absolute;
+  width: 1920px;
+  height: 380px;
+  top: 39px;
+  left: 0;
+}
+
+.main-page .overlap-20 {
+  position: relative;
+  height: 382px;
+  top: -2px;
+}
+
+.main-page .bg-3 {
+  width: 1920px;
+  height: 229px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .logo {
+  position: absolute;
+  width: 184px;
+  height: 47px;
+  top: 57px;
+  left: 868px;
+}
+
+.main-page .dressmyfit {
+  position: relative;
+  height: 47px;
+}
+
+.main-page .dress-my-fit {
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  font-family: "Fontdiner Swanky", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-8 {
+  position: absolute;
+  width: 1761px;
+  height: 1px;
+  top: 168px;
+  left: 80px;
+  object-fit: cover;
+}
+
+.main-page .gender {
+  position: absolute;
+  width: 204px;
+  height: 22px;
+  top: 69px;
+  left: 80px;
+}
+
+.main-page .man {
+  top: 0;
+  left: 93px;
+  opacity: 0.4;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .kids {
+  position: absolute;
+  top: 0;
+  left: 156px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .profile-wishlist {
+  position: absolute;
+  width: 79px;
+  height: 314px;
+  top: 68px;
+  left: 1690px;
+}
+
+.main-page .profile {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 2px;
+  left: 63px;
+}
+
+.main-page .path-6 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 0;
+  left: 3px;
+}
+
+.main-page .path-7 {
+  position: absolute;
+  width: 16px;
+  height: 10px;
+  top: 9px;
+  left: 0;
+}
+
+.main-page .wishlist {
+  position: absolute;
+  width: 24px;
+  height: 314px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-21 {
+  position: relative;
+  height: 314px;
+}
+
+.main-page .icon {
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+}
+
+.main-page .element-19 {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 10px;
+}
+
+.main-page .overlap-group-28 {
+  position: relative;
+  height: 15px;
+  top: -1px;
+}
+
+.main-page .ellipse {
+  top: 1px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.main-page .text-wrapper-32 {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-9 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 1px;
+  left: 42px;
+}
+
+.main-page .bag {
+  position: absolute;
+  width: 46px;
+  height: 325px;
+  top: 56px;
+  left: 1794px;
+}
+
+.main-page .overlap-22 {
+  position: relative;
+  height: 325px;
+}
+
+.main-page .bg-4 {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .icon-2 {
+  position: absolute;
+  width: 21px;
+  height: 314px;
+  top: 11px;
+  left: 15px;
+}
+
+.main-page .icon-3 {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  top: 2px;
+  left: 0;
+  background-image: url(../img/main/path-2-1.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .element-20 {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 7px;
+}
+
+.main-page .overlap-group-29 {
+  position: relative;
+  height: 16px;
+  top: -1px;
+}
+
+.main-page .ellipse-2 {
+  top: 2px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.main-page .navbar {
+  position: absolute;
+  width: 955px;
+  height: 22px;
+  top: 123px;
+  left: 504px;
+}
+
+.main-page .NEWS-sales {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .clothing {
+  left: 162px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .shoes {
+  left: 275px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .accessories {
+  left: 356px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .bags {
+  left: 501px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .jewelry {
+  left: 570px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .brands {
+  left: 673px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .virtual-try-on {
+  position: absolute;
+  top: 0;
+  left: 787px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b3389;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-10 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 142px;
+}
+
+.main-page .arrow-11 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 766px;
+}
+
+.main-page .search {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  top: 123px;
+  left: 80px;
+}
+
+.main-page .icon-4 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  left: 0;
+  background-image: url(../img/main/path-6.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .input {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  opacity: 0.2;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.main-page .infor-currency {
+  position: absolute;
+  width: 153px;
+  height: 21px;
+  top: 123px;
+  left: 1687px;
+}
+
+.main-page .info-9 {
+  position: absolute;
+  width: 59px;
+  height: 21px;
+  top: 0;
+  left: 94px;
+}
+
+.main-page .text-wrapper-33 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .path-8 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 51px;
+}
+
+.main-page .currency {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .path-9 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 46px;
+}
+
+.main-page .text-wrapper-34 {
+  position: absolute;
+  width: 38px;
+  height: 22px;
+  top: -1px;
+  left: -3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .arrow-12 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 0;
+  left: 74px;
+}
+
+.main-page .sale-banner {
+  position: absolute;
+  width: 1920px;
+  height: 38px;
+  top: 2px;
+  left: 0;
+}
