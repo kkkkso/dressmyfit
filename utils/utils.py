@@ -8,7 +8,6 @@ engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
-
 # 의존성 주입 함수
 def get_db():
     db = SessionLocal()

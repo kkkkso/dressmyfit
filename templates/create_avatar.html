@@ -20,10 +20,10 @@
             </p>
           </div>
         </div>
-        <img class="avatar-img" src="static/img/create_avatar/avatar-img.png" />
+        <img id="avatar-img" class ="avatar-img" src="static/img/create_avatar/avatar-img.png" />
 
         <div class="forn">
-          <form action="/create-avatar" method="post">
+          <form id="avatar-form" action="/create-avatar" method="post">
             <button class="overlap-group-wrapper">
               <div class="overlap-group-2">
                 <div class="text-wrapper">CREATE AVATAR</div>
@@ -31,10 +31,10 @@
               </div>
             </button>
 
-            <div class="comment">
+            <div class="note">
               <div class="overlap">
-                <label for="comment" class="text-wrapper-2"></label>
-                <input class="custom-input2" type="text" id="comment" name="comment" placeholder="Comment" />
+                <label for="note" class="text-wrapper-2"></label>
+                <input class="custom-input2" type="text" id="note" name="note" placeholder="Comment" />
               </div>
             </div>
             
@@ -64,6 +64,8 @@
             </div>
           </form>
         </div>
+
+        <script src=".\static\js\avtr_img.js"></script>
 
         <div class="weight">| Weight</div>
         <div class="height">| Height</div>

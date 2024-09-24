@@ -9,4 +9,7 @@ class Avatar(Base):
     height = Column(Float, nullable=False)
     weight = Column(Float, nullable=False)
     gender = Column(String(10), nullable=False)
+    note = Column(String(50), nullable=True)
     bmi = Column(Float, nullable=True)
+
+#comment로 쓰니까, oracle에서 comment는 예약어라서, 컬럼명이 얘만 소문자로 나와서 그걸 피하기 위해서이다.

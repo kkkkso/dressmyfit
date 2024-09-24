@@ -18,7 +18,7 @@
   position: absolute;
   width: 1642px;
   height: 181px;
-  top: 2543px;
+  top: 2527px;
   left: 140px;
 }
 
@@ -74,10 +74,10 @@
 
 .create-avatar .avatar-img {
   position: absolute;
-  width: 1060px;
-  height: 1155px;
-  top: 1292px;
-  left: 430px;
+  width: 960px;
+  height: 1280px;
+  top: 1203px;
+  left: 480px;
 }
 
 .create-avatar .forn {
@@ -128,7 +128,7 @@
   left: 313px;
 }
 
-.create-avatar .comment {
+.create-avatar .note {
   position: absolute;
   width: 516px;
   height: 150px;
@@ -896,7 +896,7 @@
 
 .create-avatar .results {
   position: absolute;
-  top: 1209px;
+  top: 1099px;
   left: 430px;
   font-family: "Fontdiner Swanky", Helvetica;
   font-weight: 400;
@@ -911,6 +911,6 @@
   position: absolute;
   width: 1060px;
   height: 2px;
-  top: 1186px;
+  top: 1058px;
   left: 430px;
 }
