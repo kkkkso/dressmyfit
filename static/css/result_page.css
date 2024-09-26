@@ -1,0 +1,879 @@
+.try-result {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.try-result .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 4239px;
+  position: relative;
+}
+
+.try-result .tryagain-guide-box {
+  position: absolute;
+  width: 1644px;
+  height: 766px;
+  top: 2965px;
+  left: 150px;
+}
+
+.try-result .overlap-group {
+  position: relative;
+  width: 1640px;
+  height: 766px;
+}
+
+.try-result .specific-guide {
+  position: absolute;
+  width: 350px;
+  top: 130px;
+  left: 102px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #9e9b9b;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.try-result .try-again-guide {
+  position: absolute;
+  top: 63px;
+  left: 53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #a79771;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.try-result .bg {
+  position: absolute;
+  width: 1640px;
+  height: 766px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .next-step-informing {
+  position: absolute;
+  width: 1642px;
+  height: 181px;
+  top: 2678px;
+  left: 150px;
+}
+
+.try-result .overlap {
+  position: relative;
+  width: 1640px;
+  height: 181px;
+  background-image: url(../img/result_page/bg-1.svg);
+  background-size: 100% 100%;
+}
+
+.try-result .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 240px;
+  height: 29px;
+  top: 76px;
+  left: 1309px;
+}
+
+.try-result .arrow {
+  position: absolute;
+  width: 21px;
+  height: 15px;
+  top: 7px;
+  left: 218px;
+}
+
+.try-result .virtual-try-on {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .want-to-see-lifelike {
+  position: absolute;
+  width: 1006px;
+  top: 71px;
+  left: 53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.try-result .line {
+  position: absolute;
+  width: 1640px;
+  height: 1px;
+  top: 2616px;
+  left: 150px;
+  object-fit: cover;
+}
+
+.try-result .avatar-img {
+  position: absolute;
+  width: 960px;
+  height: 1280px;
+  top: 568px;
+  left: 150px;
+}
+
+.try-result .check-your-virtual {
+  position: absolute;
+  width: 350px;
+  top: 479px;
+  left: 150px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #af9f77;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.try-result .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 380px;
+  top: 34px;
+  left: 0;
+}
+
+.try-result .title {
+  position: absolute;
+  width: 537px;
+  height: 105px;
+  top: 255px;
+  left: 692px;
+}
+
+.try-result .virtual-tryon {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.try-result .small-title {
+  position: absolute;
+  width: 221px;
+  height: 17px;
+  top: 0;
+  left: 161px;
+}
+
+.try-result .img {
+  position: absolute;
+  width: 8px;
+  height: 10px;
+  top: 3px;
+  left: 211px;
+}
+
+.try-result .main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .hedear {
+  position: absolute;
+  width: 1920px;
+  height: 380px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .overlap-3 {
+  position: relative;
+  height: 382px;
+  top: -2px;
+}
+
+.try-result .bg-2 {
+  width: 1920px;
+  height: 229px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.try-result .logo {
+  position: absolute;
+  width: 184px;
+  height: 47px;
+  top: 57px;
+  left: 868px;
+}
+
+.try-result .dressmyfit {
+  position: relative;
+  height: 47px;
+}
+
+.try-result .dress-my-fit {
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  font-family: "Fontdiner Swanky", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .arrow-2 {
+  position: absolute;
+  width: 1761px;
+  height: 1px;
+  top: 168px;
+  left: 80px;
+  object-fit: cover;
+}
+
+.try-result .gender {
+  position: absolute;
+  width: 204px;
+  height: 22px;
+  top: 69px;
+  left: 80px;
+}
+
+.try-result .woman {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .man {
+  position: absolute;
+  top: 0;
+  left: 93px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .kids {
+  position: absolute;
+  top: 0;
+  left: 156px;
+  opacity: 0.4;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .profile-wishlist {
+  position: absolute;
+  width: 79px;
+  height: 314px;
+  top: 68px;
+  left: 1690px;
+}
+
+.try-result .profile {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  top: 2px;
+  left: 63px;
+}
+
+.try-result .path {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 0;
+  left: 3px;
+}
+
+.try-result .path-2 {
+  position: absolute;
+  width: 16px;
+  height: 10px;
+  top: 9px;
+  left: 0;
+}
+
+.try-result .wishlist {
+  position: absolute;
+  width: 24px;
+  height: 314px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .overlap-4 {
+  position: relative;
+  height: 314px;
+}
+
+.try-result .icon {
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+}
+
+.try-result .element {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 10px;
+}
+
+.try-result .overlap-group-2 {
+  height: 15px;
+  position: relative;
+  top: -1px;
+}
+
+.try-result .ellipse {
+  top: 1px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.try-result .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .arrow-3 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 1px;
+  left: 42px;
+}
+
+.try-result .bag {
+  position: absolute;
+  width: 46px;
+  height: 325px;
+  top: 56px;
+  left: 1794px;
+}
+
+.try-result .overlap-5 {
+  position: relative;
+  height: 325px;
+}
+
+.try-result .bg-3 {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.try-result .overlap-wrapper {
+  position: absolute;
+  width: 21px;
+  height: 314px;
+  top: 11px;
+  left: 15px;
+}
+
+.try-result .icon-2 {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  top: 2px;
+  left: 0;
+  background-image: url(../img/result_page/path-2.svg);
+  background-size: 100% 100%;
+}
+
+.try-result .overlap-group-wrapper {
+  position: absolute;
+  width: 14px;
+  height: 314px;
+  top: 0;
+  left: 7px;
+}
+
+.try-result .overlap-group-3 {
+  height: 16px;
+  position: relative;
+  top: -1px;
+}
+
+.try-result .ellipse-2 {
+  top: 2px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.try-result .navbar {
+  position: absolute;
+  width: 955px;
+  height: 22px;
+  top: 123px;
+  left: 504px;
+}
+
+.try-result .NEWS-sales {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #491e4b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .clothing {
+  left: 162px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .shoes {
+  left: 275px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .accessories {
+  left: 356px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .bags {
+  left: 501px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .jewelry {
+  left: 570px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .brands {
+  left: 673px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .virtual-try-on-2 {
+  position: absolute;
+  top: 0;
+  left: 787px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8b3389;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .arrow-4 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 142px;
+}
+
+.try-result .arrow-5 {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 4px;
+  left: 766px;
+}
+
+.try-result .search {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  top: 123px;
+  left: 80px;
+}
+
+.try-result .icon-3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  left: 0;
+  background-image: url(../img/result_page/path-6.svg);
+  background-size: 100% 100%;
+}
+
+.try-result .input {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  opacity: 0.2;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.try-result .infor-currency {
+  position: absolute;
+  width: 153px;
+  height: 21px;
+  top: 123px;
+  left: 1687px;
+}
+
+.try-result .info {
+  position: absolute;
+  width: 59px;
+  height: 21px;
+  top: 0;
+  left: 94px;
+}
+
+.try-result .text-wrapper-2 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .path-3 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 51px;
+}
+
+.try-result .currency {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .path-4 {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  top: 8px;
+  left: 46px;
+}
+
+.try-result .text-wrapper-3 {
+  position: absolute;
+  width: 38px;
+  height: 22px;
+  top: -1px;
+  left: -3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000c22;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.try-result .arrow-6 {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 0;
+  left: 74px;
+}
+
+.try-result .sale-banner {
+  position: absolute;
+  width: 1920px;
+  height: 38px;
+  top: 2px;
+  left: 0;
+}
+
+.try-result .overlap-6 {
+  position: absolute;
+  width: 513px;
+  height: 1800px;
+  top: 568px;
+  left: 1283px;
+}
+
+.try-result .fitting-type {
+  position: absolute;
+  width: 367px;
+  height: 92px;
+  top: 157px;
+  left: 35px;
+}
+
+.try-result .fitting-type-detail {
+  position: absolute;
+  width: 350px;
+  top: 60px;
+  left: 13px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #8b338999;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.try-result .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #bdbabafa;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.try-result .cloth-type {
+  position: absolute;
+  width: 367px;
+  height: 98px;
+  top: 21px;
+  left: 35px;
+}
+
+.try-result .cloth-type-detail {
+  position: absolute;
+  width: 350px;
+  top: 66px;
+  left: 13px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #8b338999;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.try-result .what-is-used-box {
+  position: absolute;
+  width: 513px;
+  height: 1800px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .overlap-7 {
+  position: relative;
+  width: 507px;
+  height: 1800px;
+}
+
+.try-result .line-2 {
+  position: absolute;
+  width: 450px;
+  height: 1px;
+  top: 308px;
+  left: 28px;
+  object-fit: cover;
+}
+
+.try-result .bg-4 {
+  position: absolute;
+  width: 507px;
+  height: 1800px;
+  top: 0;
+  left: 0;
+}
+
+.try-result .inference-used {
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  top: 1403px;
+  left: 140px;
+}
+
+.try-result .inference {
+  position: absolute;
+  top: 1316px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #bdbabafa;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.try-result .mask-used {
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  top: 913px;
+  left: 140px;
+}
+
+.try-result .mask {
+  position: absolute;
+  top: 831px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #bdbabafa;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.try-result .target-used {
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  top: 429px;
+  left: 135px;
+}
+
+.try-result .target {
+  position: absolute;
+  top: 350px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #bdbabafa;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.try-result .what-is-used {
+  position: absolute;
+  width: 350px;
+  top: 479px;
+  left: 1283px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #af9f77;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

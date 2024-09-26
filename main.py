@@ -24,9 +24,18 @@ async def read_main(request: Request):
 async def read_main(request: Request):
     return templates.TemplateResponse("create_avatar.html", {"request": request})
 
+@app.get("/modeling-page", response_class=HTMLResponse)
+async def read_main(request: Request):
+    return templates.TemplateResponse("modeling_page.html", {"request": request})
+
+@app.get("/result-page", response_class=HTMLResponse)
+async def read_main(request: Request):
+    return templates.TemplateResponse("result_page.html", {"request": request})
+
+
+
 # 데이터베이스 초기화
 Base.metadata.create_all(bind=engine)
-
 
 # POST 요청 처리 및 DB 저장
 @app.post("/create-avatar")
@@ -97,4 +106,12 @@ async def reset_avatars(db: Session = Depends(get_db)):
     db.commit()
     return {"message": "Avatars table reset and ID sequence restarted."}
 
+# 이 부분은 수정하기. 리턴하는 데이터 타입, 넘기는 데이터 타입이 form인지, JSON 형식인지도 잘 구분해야 함
+@app.post("/result-page")
+async def result_page(request: Request):
+    form_data = await request.form()
+    # return templates.TemplateResponse("result_page.html", {"request": request, "form_data": form_data})
+    
+    # JSON 타입 반환
+    return {"form_data": form_data}
 

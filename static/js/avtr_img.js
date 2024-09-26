@@ -19,6 +19,10 @@ document.getElementById("avatar-form").addEventListener("submit", function(event
     })
     .then(response => response.json())
     .then(data => {
+        // 로컬 저장소에 저장
+        const avatarImageUrl = data.avatar_img_url;
+        sessionStorage.setItem('avatarImageUrl', avatarImageUrl);
+
         // 서버로부터 반환된 이미지 URL 사용
         const avatarImage = document.getElementById("avatar-img");
         avatarImage.src = data.avatar_img_url;

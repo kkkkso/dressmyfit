@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/static/css/globals.css" />
+    <link rel="stylesheet" href="/static/css/modeling_page.css" />
+  </head>
+  <body>
+    <div class="model-process">
+      <div class="div">
+        <div class="try-guide-box">
+          <div class="overlap-group">
+            <p class="try-guide">| Check Your Virtual Fit</p>
+            <div class="virtual-try-guide">VIRTUAL TRY GUIDE</div>
+            <img class="bg" src="static/img/modeling_page/bg-2.svg" />
+          </div>
+        </div>
+        
+        <div class="overlap">
+          <img class="webcambtn-img" src="static/img/modeling_page/webcambtn-img-1.png" />
+          <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
+        </div>
+
+        <div class="anything">
+          <div class="inf-wrapper"><img class="inf" src="static/img/modeling_page/inf-3.png" /></div>
+          <div class="upload-anything">| Upload Anything</div>
+        </div>
+        
+        <div class="overall">
+          <div class="overlap-2">
+            <img class="img" src="static/img/modeling_page/dress-6.png" />
+            <img class="img-2" src="static/img/modeling_page/dress-4.png" />
+            <img class="img-3" src="static/img/modeling_page/dress-3.png" />
+            <img class="img-4" src="static/img/modeling_page/dress-2.png" />
+            <img class="img-5" src="static/img/modeling_page/dress-1.png" />
+          </div>
+          <div class="text-wrapper">| Category : Overall</div>
+        </div>
+        <div class="lower">
+          <div class="overlap-2">
+            <img class="img" src="static/img/modeling_page/pants-5.png" />
+            <img class="img-2" src="static/img/modeling_page/pants-4.png" />
+            <img class="img-3" src="static/img/modeling_page/pants-3.png" />
+            <img class="img-4" src="static/img/modeling_page/pants-2.png" />
+            <img class="img-5" src="static/img/modeling_page/pants-1.png" />
+          </div>
+          <div class="text-wrapper">| Category : Lower</div>
+        </div>
+        <div class="upper">
+          <div class="overlap-2">
+            <img class="img" src="static/img/modeling_page/upper-5.png" />
+            <img class="img-2" src="static/img/modeling_page/upper-4.png" />
+            <img class="img-3" src="static/img/modeling_page/upper-3.png" />
+            <img class="img-4" src="static/img/modeling_page/upper-2.png" />
+            <img class="img-5" src="static/img/modeling_page/upper-1.png" />
+          </div>
+          <div class="text-wrapper">| Category : Upper</div>
+        </div>
+
+        <form id="modeling-type" action="/result-page" method="post">
+          <button class="button">
+            <div class="overlap-3">
+              <div class="see-the-result">SEE THE RESULT</div>
+              <img class="arrow" src="static/img/modeling_page/arrow.png" />
+            </div>
+          </button>
+
+          <div class="options-box">
+            <div class="overlap-4">
+
+              <div class="select-f-type">
+                <div class="div-wrapper">
+                  <label for="select-f-type" class="text-wrapper-2"></label>
+                  <select class="custom-select" id="select-f-type" name="f_type">
+                    <option value="" disabled selected hidden>Select Fitting Type</option>
+                    <option value="fit">Fit</option>
+                    <option value="standard">Standard</option>
+                    <option value="loose">Loose</option>
+                  </select>
+                </div>
+              </div>
+              <div class="fitting-type">FITTING TYPE</div>
+
+              <div class="select-c-type">
+                <div class="div-wrapper">
+                  <label for="select-c-type" class="text-wrapper-2"></label>
+                  <select class="custom-select" id="select-c-type" name="cloth_type">
+                    <option value="" disabled selected hidden>Select Cloth Type</option>
+                    <option value="upper">Upper</option>
+                    <option value="lower">Lower</option>
+                    <option value="overall">Overall</option>
+                  </select>
+                </div>
+              </div>
+              <div class="cloth-type">CLOTH TYPE</div>
+
+              <img class="bg-2" src="static/img/modeling_page/image.svg" />
+            </div>
+          </div>
+        </form>
+
+
+        <div class="options">| Options</div>
+        <div class="overlap-5">
+          <img class="line" src="static/img/modeling_page/line.svg" />
+          <img class="webcambtn-img" src="static/img/modeling_page/webcambtn-img-1.png" />
+          <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
+          <img class="erasebtn-img" src="static/img/modeling_page/erasebtn-img.png" />
+          <img class="drawbtn-img" src="static/img/modeling_page/drawbtn-img.png" />
+        </div>
+
+        <img id="avatar-img" class="avatar-img" src="{{ avatarImgUrl }}" alt="Avatar" />
+        <div class="dress-your-fit">| Dress Your Fit</div>
+        <div class="overlap-6">
+          <div class="title">
+            <div class="virtual-tryon">«VIRTUAL TRY-ON»</div>
+            <div class="small-title">
+              <img class="arrow-2" src="static/img/modeling_page/arrow-1.svg" />
+              <div class="main">DRESS ANYTHING YOU WANT</div>
+            </div>
+          </div>
+          <div class="hedear">
+            <div class="overlap-7">
+              <img class="bg-3" src="static/img/modeling_page/bg-5.svg" />
+              <div class="logo">
+                <div class="dressmyfit"><div class="dress-my-fit">Dressmyfit</div></div>
+              </div>
+              <img class="arrow-3" src="static/img/modeling_page/arrow-2.svg" />
+              <div class="gender">
+                <div class="woman">WOMAN</div>
+                <div class="man">MAN</div>
+                <div class="kids">KIDS</div>
+              </div>
+              <div class="profile-wishlist">
+                <div class="profile">
+                  <img class="path" src="static/img/modeling_page/path-3.svg" /> <img class="path-2" src="static/img/modeling_page/path-4.svg" />
+                </div>
+                <div class="wishlist">
+                  <div class="overlap-8">
+                    <img class="icon" src="static/img/modeling_page/icon.svg" />
+                    <div class="element">
+                      <div class="overlap-group-2">
+                        <img class="ellipse" src="static/img/modeling_page/ellipse-3.svg" />
+                        <div class="text-wrapper-3">8</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img class="arrow-4" src="static/img/modeling_page/arrow-3.svg" />
+              </div>
+              <div class="bag">
+                <div class="overlap-9">
+                  <img class="bg-4" src="static/img/modeling_page/bg-6.svg" />
+                  <div class="overlap-wrapper">
+                    <div class="overlap-8">
+                      <div class="icon-2"></div>
+                      <div class="overlap-group-wrapper">
+                        <div class="overlap-group-3">
+                          <img class="ellipse-2" src="static/img/modeling_page/ellipse-4.svg" />
+                          <div class="text-wrapper-3">3</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="navbar">
+                <div class="NEWS-sales">NEWS&amp;SALES</div>
+                <div class="clothing">CLOTHING</div>
+                <div class="shoes">SHOES</div>
+                <div class="accessories">ACCESSORIES</div>
+                <div class="bags">BAGS</div>
+                <div class="jewelry">JEWELRY</div>
+                <div class="brands">BRANDS</div>
+                <div class="virtual-try-on">VIRTUAL TRY-ON</div>
+                <img class="arrow-5" src="static/img/modeling_page/arrow-5.svg" />
+                <img class="arrow-6" src="static/img/modeling_page/arrow-5.svg" />
+              </div>
+              <div class="search">
+                <div class="icon-3"></div>
+                <input class="input" placeholder="Search" type="text" />
+              </div>
+              <div class="infor-currency">
+                <div class="info">
+                  <div class="text-wrapper-4">INFO</div>
+                  <img class="path-3" src="static/img/modeling_page/path-442-1.svg" />
+                </div>
+                <div class="currency">
+                  <img class="path-4" src="static/img/modeling_page/path-442-1.svg" />
+                  <div class="text-wrapper-5">USD</div>
+                </div>
+                <img class="arrow-7" src="static/img/modeling_page/arrow-6.svg" />
+              </div>
+              <img class="sale-banner" src="static/img/modeling_page/sale-banner.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src=".\static\js\load_avtr.js"></script>
+  </body>
+</html>
