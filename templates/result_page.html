@@ -25,7 +25,8 @@
           </div>
         </div>
         <img class="line" src="static/img/result_page/line.svg" />
-        <img class="avatar-img" src="static/img/result_page/avatar-img.png" />
+        <img id="avatar-image" class="avatar-img" src="results/{{img_id}}.png" />
+        <!-- <img class="avatar-img" src="static/img/result_page/avatar-img.png" /> -->
         <p class="check-your-virtual">| Check Your Virtual Fit</p>
         <div class="overlap-2">
           <div class="title">
@@ -124,11 +125,15 @@
             <div class="overlap-7">
               <img class="line-2" src="static/img/result_page/line-2.svg" />
               <img class="bg-4" src="static/img/result_page/image.svg" />
-              <img class="inference-used" src="static/img/result_page/target-used.png" />
+
+              <!-- 여기부터 잘 보기. result_img_loader.js 참고-->
+              <img id = "inference-used" class="inference-used" src="static/img/result_page/target-used.png" />
               <div class="inference">INFERENCE</div>
-              <img class="mask-used" src="static/img/result_page/target-used.png" />
+
+              <img id = "mask-used" class="mask-used" src="static/img/result_page/target-used.png" />
               <div class="mask">MASK</div>
-              <img class="target-used" src="static/img/result_page/target-used.png" />
+
+              <img id = "target-used" class="target-used" src="static/img/result_page/target-used.png" />
               <div class="target">TARGET</div>
             </div>
           </div>
@@ -136,5 +141,6 @@
         <div class="what-is-used">| What is used?</div>
       </div>
     </div>
+    <script src=".\static\js\result_img_loader.js" ></script>
   </body>
 </html>

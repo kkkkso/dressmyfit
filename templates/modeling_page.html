@@ -4,8 +4,59 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/static/css/globals.css" />
     <link rel="stylesheet" href="/static/css/modeling_page.css" />
+      <style>
+    /* Styles for the loading element */
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: 9999;
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+    #bo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #555;
+      opacity: 0.8;
+      z-index: 99999;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    /* Spinner styling */
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #3498db;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    /* Spin animation */
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+      </style>
   </head>
   <body>
+    <div id="loading" style="display: none; flex-direction: column;">
+     <div id="bo"></div>
+      <div style="font-size: 42px; opacity: 1; text-align: center; color: black; padding-bottom: 30px; z-index: 9999999999;">
+      Processing... <br><br>Please Be Patient....
+      </div>
+ 
+    <div class="spinner" style="font-size: 42px; opacity: 1; text-align: center; color: black; padding-bottom: 30px; z-index: 9999999999;"></div>
+</div>
+  </div>
     <div class="model-process">
       <div class="div">
         <div class="try-guide-box">
@@ -18,49 +69,58 @@
         
         <div class="overlap">
           <img class="webcambtn-img" src="static/img/modeling_page/webcambtn-img-1.png" />
-          <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
+
+          <!-- 업로드 이미지 버튼 -->
+          <label for="upload-input">
+            <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
+          </label>
+          <input type="file" id="upload-input" accept="image/*" style="display: none;">
+        
         </div>
 
+        <!-- 업로드된 이미지가 보여질 곳 -->
         <div class="anything">
-          <div class="inf-wrapper"><img class="inf" src="static/img/modeling_page/inf-3.png" /></div>
+          <div class="inf-wrapper"><img id="uploaded-image" class="cloth-img-inf" src="static/img/modeling_page/inf-3.png" /></div>
           <div class="upload-anything">| Upload Anything</div>
         </div>
         
         <div class="overall">
           <div class="overlap-2">
-            <img class="img" src="static/img/modeling_page/dress-6.png" />
-            <img class="img-2" src="static/img/modeling_page/dress-4.png" />
-            <img class="img-3" src="static/img/modeling_page/dress-3.png" />
-            <img class="img-4" src="static/img/modeling_page/dress-2.png" />
-            <img class="img-5" src="static/img/modeling_page/dress-1.png" />
+            <img class="cloth-img" src="static/img/modeling_page/dress-6.png" />
+            <img class="cloth-img-2" src="static/img/modeling_page/dress-4.png" />
+            <img class="cloth-img-3" src="static/img/modeling_page/dress-3.png" />
+            <img class="cloth-img-4" src="static/img/modeling_page/dress-2.png" />
+            <img class="cloth-img-5" src="static/img/modeling_page/dress-1.png" />
           </div>
           <div class="text-wrapper">| Category : Overall</div>
         </div>
         <div class="lower">
           <div class="overlap-2">
-            <img class="img" src="static/img/modeling_page/pants-5.png" />
-            <img class="img-2" src="static/img/modeling_page/pants-4.png" />
-            <img class="img-3" src="static/img/modeling_page/pants-3.png" />
-            <img class="img-4" src="static/img/modeling_page/pants-2.png" />
-            <img class="img-5" src="static/img/modeling_page/pants-1.png" />
+            <img class="cloth-img" src="static/img/modeling_page/pants-5.png" />
+            <img class="cloth-img-2" src="static/img/modeling_page/pants-4.png" />
+            <img class="cloth-img-3" src="static/img/modeling_page/pants-3.png" />
+            <img class="cloth-img-4" src="static/img/modeling_page/pants-2.png" />
+            <img class="cloth-img-5" src="static/img/modeling_page/pants-1.png" />
           </div>
           <div class="text-wrapper">| Category : Lower</div>
         </div>
         <div class="upper">
           <div class="overlap-2">
-            <img class="img" src="static/img/modeling_page/upper-5.png" />
-            <img class="img-2" src="static/img/modeling_page/upper-4.png" />
-            <img class="img-3" src="static/img/modeling_page/upper-3.png" />
-            <img class="img-4" src="static/img/modeling_page/upper-2.png" />
-            <img class="img-5" src="static/img/modeling_page/upper-1.png" />
+            <img class="cloth-img" src="static/img/modeling_page/upper-5.png" />
+            <img class="cloth-img-2" src="static/img/modeling_page/upper-4.png" />
+            <img class="cloth-img-3" src="static/img/modeling_page/upper-3.png" />
+            <img class="cloth-img-4" src="static/img/modeling_page/upper-2.png" />
+            <img class="cloth-img-5" src="static/img/modeling_page/upper-1.png" />
           </div>
           <div class="text-wrapper">| Category : Upper</div>
         </div>
 
-        <form id="modeling-type" action="/result-page" method="post">
-          <button class="button">
+        <form id="modeling-type" action="/result-page" method="post"></form>
+        <!-- <form id="modeling-type"> -->
+          
+          <button class="button"> 
             <div class="overlap-3">
-              <div class="see-the-result">SEE THE RESULT</div>
+              <div id="see-the-result" class="see-the-result">SEE THE RESULT</div>
               <img class="arrow" src="static/img/modeling_page/arrow.png" />
             </div>
           </button>
@@ -71,7 +131,8 @@
               <div class="select-f-type">
                 <div class="div-wrapper">
                   <label for="select-f-type" class="text-wrapper-2"></label>
-                  <select class="custom-select" id="select-f-type" name="f_type">
+                  <!-- <select class="custom-select" id="select-f-type" name="f_type"></select> -->
+                  <select class="custom-select" id="select-f-type" name="fitting_type">
                     <option value="" disabled selected hidden>Select Fitting Type</option>
                     <option value="fit">Fit</option>
                     <option value="standard">Standard</option>
@@ -102,14 +163,24 @@
 
         <div class="options">| Options</div>
         <div class="overlap-5">
+
           <img class="line" src="static/img/modeling_page/line.svg" />
+          
+          <!-- 업로드 이미지 버튼 -->
+          <label for="upload-target">          
+            <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
+          </label>
+          <input type="file" id="upload-target" accept="image/*" style="display: none;">
+
           <img class="webcambtn-img" src="static/img/modeling_page/webcambtn-img-1.png" />
-          <img class="uploadbtn-img" src="static/img/modeling_page/uploadbtn-img-1.png" />
           <img class="erasebtn-img" src="static/img/modeling_page/erasebtn-img.png" />
           <img class="drawbtn-img" src="static/img/modeling_page/drawbtn-img.png" />
+       
         </div>
 
+        <!-- 업로드된 이미지가 보여질 곳 -->
         <img id="avatar-img" class="avatar-img" src="{{ avatarImgUrl }}" alt="Avatar" />
+        
         <div class="dress-your-fit">| Dress Your Fit</div>
         <div class="overlap-6">
           <div class="title">
@@ -198,5 +269,38 @@
       </div>
     </div>
     <script src=".\static\js\load_avtr.js"></script>
+    <!-- <script src=".\static\js\upload_img_loader.js"></script> -->
+    <script src=".\static\js\upload_target_loader.js"></script>
+    <script src=".\static\js\server_comm.js"></script>
+    <script>
+      /*
+      const formModeling = document.getElementById('modeling-type');
+      formModeling.onsubmit = async (e) => {
+        e.preventDefault();
+        const personImgEl = document.getElementById('avatar-img');
+        const fetchedImg = await fetch(personImgEl.src);
+        const person_img_blob = await fetchedImg.blob();
+        const clothImgEl = document.getElementsByClassName('selected');
+        const fetchedClothImg = await fetch(clothImgEl.src);
+        const cloth_img_blob = await fetchedClothImg.blob();
+        const formData = new FormData();
+        formData.append('person_image', person_img_blob, 'person_image');
+        formData.append('cloth_image', cloth_img_blob, 'cloth_image');
+        formData.append('cloth_type', formModeling.get('cloth_type'))
+        formData.append('fitting_type', formModeling.get('fitting_type'))
+        const result_img_base64 = await fetch('http://203.153.147.3', {
+          method: 'POST',
+          body: formData
+        })
+      }
+        */
+    </script>
+     <script>
+    // Hide the loading element when the page has fully loaded
+    // window.addEventListener('load', function() {
+    //   var loadingElement = document.getElementById('loading');
+    //   loadingElement.style.display = 'none';
+    // });
+  </script>
   </body>
 </html>

@@ -9,9 +9,33 @@ from sqlalchemy.orm import Session
 from models.avatar import Avatar
 from schemas.avatar_schemas import AvatarCreate
 from fastapi.responses import JSONResponse
+from fastapi import FastAPI, File, Form, UploadFile
+import requests
+from requests_toolbelt import MultipartEncoder
+import base64
+from io import BytesIO
+from PIL import Image
+import uuid
+from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI()
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:3000",
+    "http://127.0.0.1:8080",
+    "http://127.0.0.1:3000",
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 app.include_router(router)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
@@ -106,12 +130,32 @@ async def reset_avatars(db: Session = Depends(get_db)):
     db.commit()
     return {"message": "Avatars table reset and ID sequence restarted."}
 
-# 이 부분은 수정하기. 리턴하는 데이터 타입, 넘기는 데이터 타입이 form인지, JSON 형식인지도 잘 구분해야 함
-@app.post("/result-page")
-async def result_page(request: Request):
-    form_data = await request.form()
-    # return templates.TemplateResponse("result_page.html", {"request": request, "form_data": form_data})
-    
-    # JSON 타입 반환
-    return {"form_data": form_data}
+# 리턴하는 데이터 타입, 넘기는 데이터 타입이 form인지, JSON 형식인지도 잘 구분해야 함
+
+@app.post("/result-page", response_class=HTMLResponse)
+async def result_page(
+    request: Request,
+    cloth_type: str = Form(...),  # 전달 받을 데이터
+    fitting_type: str = Form(...),
+    person_image: UploadFile = File(...),
+    cloth_image: UploadFile = File(...)
+):
+    mp_encoder = MultipartEncoder(
+    fields={
+        cloth_type: cloth_type,
+        fitting_type: fitting_type,
+        person_image: person_image,
+        cloth_image: cloth_image
+    })
+    result_image_base64 = requests.post('http://203.153.147.3', data=mp_encoder,
+                                          headers={'Content-Type': mp_encoder.content_type} )
+    print ('result: ', result_image_base64)
+    # convert base64 image to pil image
+    im_bytes = base64.b64decode(result_image_base64)   # im_bytes is a binary image
+    im_file = BytesIO(im_bytes)  # convert image to file-like object
+    img = Image.open(im_file)   # img is now PIL Image object
+    img_id = uuid.uuid5()
+    img.save(f'results/{img_id}.png')
+    # 여기에 원하는 로직 추가 (ex: 데이터베이스 저장, 다른 처리 등)
+    return templates.TemplateResponse("resu,lt_page.html",  {"request": request, }, context={img_id : img_id})
 

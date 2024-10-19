@@ -108,13 +108,15 @@
   background-size: 100% 100%;
 }
 
-.model-process .inf {
+.model-process .cloth-img-inf {
   position: absolute;
   width: 240px;
   height: 320px;
   top: 30px;
   left: 28px;
   object-fit: cover;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .model-process .upload-anything {
@@ -149,49 +151,54 @@
   background-size: 100% 100%;
 }
 
-.model-process .img {
+.model-process .cloth-img {
   position: absolute;
   width: 243px;
   height: 320px;
   top: 30px;
   left: 1243px;
   object-fit: cover;
+  pointer-events: auto;
 }
 
-.model-process .img-2 {
+.model-process .cloth-img-2 {
   position: absolute;
   width: 243px;
   height: 320px;
   top: 30px;
   left: 940px;
   object-fit: cover;
+  pointer-events: auto;
 }
 
-.model-process .img-3 {
+.model-process .cloth-img-3 {
   position: absolute;
   width: 243px;
   height: 320px;
   top: 30px;
   left: 638px;
   object-fit: cover;
+  pointer-events: auto;
 }
 
-.model-process .img-4 {
+.model-process .cloth-img-4 {
   position: absolute;
   width: 243px;
   height: 320px;
   top: 30px;
   left: 335px;
   object-fit: cover;
+  pointer-events: auto;
 }
 
-.model-process .img-5 {
+.model-process .cloth-img-5 {
   position: absolute;
   width: 243px;
   height: 320px;
   top: 30px;
   left: 32px;
   object-fit: cover;
+  pointer-events: auto;
 }
 
 .model-process .text-wrapper {
@@ -997,4 +1004,9 @@
 
   padding-left: 13px;
   z-index: 10;
+}
+
+.selected {
+  border: 3px solid #d8b0ff; /* 연보라색 테두리 */
+  box-shadow: 0 0 10px rgba(216, 176, 255, 0.5); /* 연보라색 그림자 */
 }
