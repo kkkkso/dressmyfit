@@ -71,27 +71,102 @@ async def create_avatar(
     db: Session = Depends(get_db)  # DB 세션 종속성 추가
 ):
     bmi=(weight / (height / 100) ** 2)
-    # BMI에 따른 이미지 경로 설정
+    # height와 BMI에 따른 이미지 경로 설정
     if bmi < 18.5:
         if gender == 'man':
-            avatar_img_url = "/static/avatar_type/m_lvl0.png"
+            if height < 160:
+                avatar_img_url = "/static/avatar_type/150m_lvl0.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/160m_lvl0.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/m_lvl0.png"
+            elif 180 <= height < 190:
+                avatar_img_url = "/static/avatar_type/180m_lvl0.png"
+            else:
+                avatar_img_url = "/static/avatar_type/190m_lvl0.png"
         else: 
-            avatar_img_url = "/static/avatar_type/w_lvl0.png"
+            if height < 150:
+                avatar_img_url = "/static/avatar_type/140w_lvl0.png"
+            elif 150 <= height < 160:
+                avatar_img_url = "/static/avatar_type/150w_lvl0.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/w_lvl0.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/170w_lvl0.png"
+            else:
+                avatar_img_url = "/static/avatar_type/180w_lvl0.png"
+
     elif 18.5 <= bmi < 25:
         if gender == 'man':
-            avatar_img_url = "/static/avatar_type/m_lvl1.png"
+            if height < 160:
+                avatar_img_url = "/static/avatar_type/150m_lvl1.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/160m_lvl1.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/m_lvl1.png"
+            elif 180 <= height < 190:
+                avatar_img_url = "/static/avatar_type/180m_lvl1.png"
+            else:
+                avatar_img_url = "/static/avatar_type/190m_lvl1.png"
         else: 
-            avatar_img_url = "/static/avatar_type/w_lvl1.png"
+            if height < 150:
+                avatar_img_url = "/static/avatar_type/140w_lvl1.png"
+            elif 150 <= height < 160:
+                avatar_img_url = "/static/avatar_type/150w_lvl1.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/w_lvl1.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/170w_lvl1.png"
+            else:
+                avatar_img_url = "/static/avatar_type/180w_lvl1.png"
+
     elif 25 <= bmi < 30:
         if gender == 'man':
-            avatar_img_url = "/static/avatar_type/m_lvl2.png"
+            if height < 160:
+                avatar_img_url = "/static/avatar_type/150m_lvl2.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/160m_lvl2.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/m_lvl2.png"
+            elif 180 <= height < 190:
+                avatar_img_url = "/static/avatar_type/180m_lvl2.png"
+            else:
+                avatar_img_url = "/static/avatar_type/190m_lvl2.png"
         else: 
-            avatar_img_url = "/static/avatar_type/w_lvl2.png"
+            if height < 150:
+                avatar_img_url = "/static/avatar_type/140w_lvl2.png"
+            elif 150 <= height < 160:
+                avatar_img_url = "/static/avatar_type/150w_lvl2.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/w_lvl2.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/170w_lvl2.png"
+            else:
+                avatar_img_url = "/static/avatar_type/180w_lvl2.png"
+
     else:
         if gender == 'man':
-            avatar_img_url = "/static/avatar_type/m_lvl3.png"
+            if height < 160:
+                avatar_img_url = "/static/avatar_type/150m_lvl3.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/160m_lvl3.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/m_lvl3.png"
+            elif 180 <= height < 190:
+                avatar_img_url = "/static/avatar_type/180m_lvl3.png"
+            else:
+                avatar_img_url = "/static/avatar_type/190m_lvl3.png"
         else: 
-            avatar_img_url = "/static/avatar_type/w_lvl3.png"
+            if height < 150:
+                avatar_img_url = "/static/avatar_type/140w_lvl3.png"
+            elif 150 <= height < 160:
+                avatar_img_url = "/static/avatar_type/150w_lvl3.png"
+            elif 160 <= height < 170:
+                avatar_img_url = "/static/avatar_type/w_lvl3.png"
+            elif 170 <= height < 180:
+                avatar_img_url = "/static/avatar_type/170w_lvl3.png"
+            else:
+                avatar_img_url = "/static/avatar_type/180w_lvl3.png"
 
     # Avatar 데이터베이스 모델에 데이터 저장
     avatar = Avatar(height=height, weight=weight, gender=gender, note=note, bmi=bmi) 
@@ -157,5 +232,5 @@ async def result_page(
     img_id = uuid.uuid5()
     img.save(f'results/{img_id}.png')
     # 여기에 원하는 로직 추가 (ex: 데이터베이스 저장, 다른 처리 등)
-    return templates.TemplateResponse("resu,lt_page.html",  {"request": request, }, context={img_id : img_id})
+    return templates.TemplateResponse("result_page.html",  {"request": request, }, context={img_id : img_id})
 

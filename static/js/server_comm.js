@@ -2,6 +2,11 @@ let cloth_image = null;
 let person_image = null;
 let imageUrl = null;
 
+setTimeout( () => {
+    let progressBar = document.getElementById('progress-bar');
+    console.log('pb: ', progressBar)    
+}, 1000);
+
 // 옷 이미지를 클릭할 때
 document.querySelectorAll('[class^="cloth-img"]').forEach(image => {
     image.addEventListener('click', async function() {
@@ -61,6 +66,7 @@ document.getElementById('see-the-result').addEventListener('click', async functi
 
         // 서버로 요청 보내기 (AJAX)
         // fetch('http://203.153.147.3:3000/process-image', {
+        // asyncronous language: javascript
         fetch('http://127.0.0.1:3000/process-image', {
             method: 'POST',
              body: formData
@@ -74,7 +80,8 @@ document.getElementById('see-the-result').addEventListener('click', async functi
                 sessionStorage.setItem('result_image', data.result_image);
                 sessionStorage.setItem('masked_person', data.masked_person);
     loadingEl.style.display = 'none';
-
+                sessionStorage.setItem('cloth_type', c_type)
+                sessionStorage.setItem('fitting_type', f_type)
                 // 결과 페이지로 이동
                 window.location.href = '/result-page';
             } else {
@@ -85,5 +92,30 @@ document.getElementById('see-the-result').addEventListener('click', async functi
             console.error('Error:', error);
             alert('서버와의 통신 중 오류가 발생했습니다.');
         });
+        setTimeout( () => {
+            const ws = new WebSocket(`ws://127.0.0.1:3000/ws/`);
+            console.log('websocket created!');
+            const progressRender = document.getElementById('progress-render');
+            const progressText = document.getElementById('progress-text');
+
+            console.log('progressDiv: ', progressRender)
+            ws.onmessage = (event) => {
+                console.log('Received:', event.data);
+                if (event.data === 'Processing complete') {
+                    ws.close();
+                    progressDiv.innerHTML = "Processing complete!";
+                } else {
+                    // Update progress bar or UI element with progress
+                    const progress = parseFloat(event.data) * 100;
+                    console.log('Progress parsed:', progress);
+                    progressRender.style.width = `${progress}%`;
+                    progressText.textContent = `${progress.toFixed(0)}%`;
+                }
+            };
+
+            ws.onclose = () => {
+                console.log('WebSocket connection closed');
+            };
+        }, 300)
     }
 });

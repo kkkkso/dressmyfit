@@ -8,6 +8,8 @@ document.getElementById('upload-target').addEventListener('change', function(eve
             const uploadedImage = document.getElementById('avatar-img');
             uploadedImage.src = e.target.result; // 업로드한 이미지의 URL을 img 요소의 src에 설정
             uploadedImage.style.display = 'block'; // 이미지를 보이도록 설정
+        
+            sessionStorage.setItem('avatarImageUrl', e.target.result);
         };
 
         reader.readAsDataURL(file); // 파일을 DataURL로 읽기

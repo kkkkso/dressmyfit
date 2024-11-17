@@ -802,31 +802,36 @@
 }
 
 .try-result .inference-used {
-  position: absolute;
-  width: 240px;
-  height: 320px;
-  top: 1403px;
-  left: 140px;
+  position: absolute !important;
+  width: 240px !important;
+  height: 320px !important;
+  top: 913px !important;
+  left: 140px !important;
+  z-index: 99999 !important;
 }
+/*원래 top 1403*/
 
 .try-result .inference {
-  position: absolute;
-  top: 1316px;
-  left: 35px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #bdbabafa;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: 42px;
-  white-space: nowrap;
+  position: absolute !important;
+  top: 831px !important;
+  left: 35px !important;
+  font-family: "Inter", Helvetica !important;
+  font-weight: 500 !important;
+  color: #bdbabafa !important;
+  font-size: 36px !important;
+  letter-spacing: 0 !important;
+  line-height: 42px !important;
+  white-space: nowrap !important;
+  z-index: 99999 !important;
 }
+/*원래 top 1316*/
 
+/*
 .try-result .mask-used {
   position: absolute;
   width: 240px;
   height: 320px;
-  top: 913px;
+  top: 913px; 
   left: 140px;
 }
 
@@ -842,6 +847,7 @@
   line-height: 42px;
   white-space: nowrap;
 }
+  */
 
 .try-result .target-used {
   position: absolute;
