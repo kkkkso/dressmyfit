@@ -1,5 +1,8 @@
 # dressmyfit (part1)
 
+## Poster
+![1911856 김시영_졸업포스터_최종_pages-to-jpg-0001](https://github.com/user-attachments/assets/d325bed8-b8ca-4696-ac27-a874cb6ff214)
+
 ## 목차
 1. 전체 서비스 소개 (Part1 + Part2)
    - 프로젝트 개요
